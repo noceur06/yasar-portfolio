@@ -519,9 +519,6 @@ footer a{
 }
 
 
-/* ======================== RESPONSIVE DESIGN ======================== */
-
-/* ========== For small phones (portrait) ========== */
 @media (max-width: 480px) {
 
     body{
@@ -554,7 +551,7 @@ footer a{
     height: auto;
   }
 
-  /* Home Section */
+  
   #left, #right {
     margin-top: 45%;
     background: linear-gradient(to right, #000000 0%, #000000 48%, #001738 60%, #0055ff 100%);
@@ -604,7 +601,7 @@ footer a{
     position: static;
   }
 
-  /* Skills Section */
+
   #left1, #right1 {
     width: 100%;
     height: auto;
@@ -637,7 +634,7 @@ footer a{
     font-size: 1.1rem;
   }
 
-  /* Projects Section */
+  
   #full1 {
     flex-direction: column;
     height: auto;
@@ -662,7 +659,7 @@ footer a{
     text-align: center;
   }
 
-  /* Contact Section */
+  
   #full2 {
     flex-direction: row;
     flex-wrap: wrap;
@@ -695,7 +692,7 @@ footer a{
 }
 
 
-/* ========== For tablets and medium screens ========== */
+
 @media (min-width: 481px) and (max-width: 1024px) {
 
   #nav {
@@ -792,7 +789,7 @@ footer a{
 }
 
 
-/* ========== For large desktop screens ========== */
+/
 @media (min-width: 1025px) {
   #nav {
     width: 80%;
